@@ -32,7 +32,12 @@ function qiangHongbao8(){
     var qiang2=document.querySelector('#recyclerView > div > div:nth-child(2) > div > div > div:nth-child(3) > div:nth-child(2) > div > div.rax-scrollview > div > div:nth-child(3) > div:nth-child(3) > div > img');
     if(qiang2!=null){
       qiang2.click();
-    }
+    } else {
+		var qiang3 = document.querySelector('#recyclerView > div > div:nth-child(2) > div > div > div:nth-child(3) > div:nth-child(3) > div > div.rax-scrollview > div > div:nth-child(3) > div:nth-child(3) > div > img');
+		if (qiang3!=null) {
+			qiang3.click();
+		}
+	}
   }
   setTimeout("qiangHongbao3();",200);
 };
@@ -46,7 +51,12 @@ function qiangHongbao3(){
     var qiang4=document.querySelector('#recyclerView > div > div:nth-child(2) > div > div > div:nth-child(3) > div:nth-child(2) > div > div.rax-scrollview > div > div:nth-child(2) > div:nth-child(3) > div > img');
     if(qiang4!=null){
       qiang4.click();
-    }
+    } else {
+		var qiang5 = document.querySelector('#recyclerView > div > div:nth-child(2) > div > div > div:nth-child(3) > div:nth-child(3) > div > div.rax-scrollview > div > div:nth-child(2) > div:nth-child(3) > div > img');
+		if (qiang5!=null) {
+			qiang5.click();
+		}
+	}
   }
   setTimeout("goRound();",200);
 }
